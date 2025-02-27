@@ -109,6 +109,20 @@ button{
     padding-right: 350px;
 }
 
+.sign-up-area{
+    background-color: white;
+    display: flex;
+}
+
+.sign-up-box{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-box button{
+    border: 1;
+    border-color: white;
+}
 .footer p{
     text-align: center;
     color: rgb(196, 196, 196);
