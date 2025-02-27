@@ -65,6 +65,9 @@ button{
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .img-section{
@@ -87,4 +90,20 @@ button{
     margin-top: 0;
     padding-bottom: 200px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    padding: 100px 350px;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    padding-bottom: 0;
+}
+.quote-person{
+    align-self: flex-end;
+    padding-top: 0;
+    padding-right: 350px;
 }
