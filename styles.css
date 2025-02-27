@@ -1,20 +1,55 @@
 *{
     font-family: 'Roboto';
     background-color: #1F2937;
-    color: white;
 
 }
 
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-bottom: 80px;
 }
 
 ul{
     display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 16px;
 }
 
 .hero-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.hero-content-text{
+    margin-right: 50px;
+    max-width: 600px;
+}
+
+#hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    color: white;
+    background-color: #3882F6;
+    width: 90px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
 }
