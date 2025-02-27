@@ -1,4 +1,4 @@
-*{
+body{
     font-family: 'Roboto';
     background-color: #1F2937;
 
@@ -52,4 +52,39 @@ button{
     height: 36px;
     border: none;
     border-radius: 10px;
+}
+
+.information{
+    margin-top: 150px ;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+    background-color: white;
+}
+.information h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+
+}
+.img-section p{
+    max-width: 200px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.img-section img{
+    border-radius: 10px;
+}
+
+.quote{
+    margin-top: 0;
+    padding-bottom: 200px;
+    background-color: #E5E7EB;
 }
