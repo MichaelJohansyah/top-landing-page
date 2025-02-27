@@ -1,130 +1,149 @@
-body{
-    font-family: 'Roboto';
-    background-color: #1F2937;
-
+body {
+  font-family: "Roboto";
+  background-color: #1f2937;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
-    margin-bottom: 80px;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  margin-bottom: 80px;
 }
 
-ul{
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    gap: 16px;
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 16px;
 }
 
-.hero-content{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 200px;
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 
-.hero-content-text{
-    margin-right: 50px;
-    max-width: 600px;
+.hero-content-text {
+  margin-right: 50px;
+  max-width: 600px;
 }
 
-#hero-main-text{
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
+#hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 
-#header-logo-text{
-    font-size: 24px;
-    color: #F9FAF8;
+#header-logo-text {
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
-.hero-secondary-text{
-    font-size: 18px;
-    color: #E5E7EB;
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-button{
-    color: white;
-    background-color: #3882F6;
-    width: 90px;
-    height: 36px;
-    border: none;
-    border-radius: 10px;
+button {
+  color: white;
+  background-color: #3882f6;
+  width: 100px;
+  height: 36px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
-.information{
-    margin-top: 150px ;
-    padding-bottom: 100px;
-    margin-bottom: 0;
-    background-color: white;
+.information {
+  margin-top: 150px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  background-color: white;
 }
-.information h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
-
-.img-section{
-    display: flex;
-    justify-content: center;
-    gap: 36px;
-
-}
-.img-section p{
-    max-width: 200px;
-    text-align: center;
-    text-wrap: wrap;
+.information h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
-.img-section img{
-    border-radius: 10px;
+.img-section {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+.img-section p {
+  max-width: 200px;
+  text-align: center;
+  text-wrap: wrap;
 }
 
-.quote{
-    margin-top: 0;
-    padding-bottom: 100px;
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
+.img-section img {
+  border-radius: 10px;
 }
 
-.quote-text{
-    padding: 100px 350px;
-    margin: 0;
-    font-size: 36px;
-    font-weight: 100;
-    color: #1F2937;
-    padding-bottom: 0;
+.quote {
+  margin-top: 0;
+  padding-bottom: 100px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
 }
 
-.quote-person{
-    align-self: flex-end;
-    padding-top: 0;
-    padding-right: 350px;
+.quote-text {
+  padding: 100px 350px;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+  padding-bottom: 0;
 }
 
-.sign-up-area{
-    background-color: white;
-    display: flex;
+.quote-person {
+  align-self: flex-end;
+  padding-top: 0;
+  padding-right: 350px;
 }
 
-.sign-up-box{
-    display: flex;
-    justify-content: center;
+.sign-up-area {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
 }
 
-.sign-up-box button{
-    border: 1;
-    border-color: white;
+.sign-up-box {
+  width: 75%;
+  display: flex;
+  background-color: #3882f6;
+  padding: 20px 0;
+  border-radius: 8px;
+  color: #f9faf8;
+  justify-content: space-around;
 }
-.footer p{
-    text-align: center;
-    color: rgb(196, 196, 196);
-    padding: 16px;
+
+.sign-up-text h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.sign-up-text p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.sign-up-box button {
+  border: 2px solid white;
+  align-self: center;
+  padding-right: 0px;
+  font-weight: bold;
+}
+.footer p {
+  text-align: center;
+  color: rgb(196, 196, 196);
+  padding: 16px;
 }
