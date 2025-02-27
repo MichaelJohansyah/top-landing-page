@@ -1,4 +1,20 @@
 *{
     font-family: 'Roboto';
+    background-color: #1F2937;
+    color: white;
 
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: space-around;
 }
